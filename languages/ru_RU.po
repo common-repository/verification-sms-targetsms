@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TargetSMS Verify Reg\n"
+"POT-Creation-Date: 2022-02-08 12:44+0700\n"
+"PO-Revision-Date: 2022-02-08 12:47+0700\n"
+"Last-Translator: \n"
+"Language-Team: Larisa Drobina\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ../inc\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-SearchPath-0: class-targetvr-lang.php\n"
+
+#: class-targetvr-lang.php:6
+msgid "Enabled"
+msgstr "Включить"
+
+#: class-targetvr-lang.php:7
+msgid "Confirmation & SMS"
+msgstr "Верификация и SMS"
+
+#: class-targetvr-lang.php:8
+msgid ""
+"If this option is enabled, the verification field will not be displayed by "
+"default. Use shortcodes"
+msgstr ""
+"Если эта опция включена, поле верификации не будет выводиться по умолчанию. "
+"Для вывода в шаблонах используйте shortcodes"
+
+#: class-targetvr-lang.php:9
+msgid ""
+"For the TargetSMS Verify SMS plugin to work correctly, WooCommerce is "
+"required."
+msgstr ""
+"Для корректной работы плагина TargetSMS Verify SMS должен быть установлен "
+"WooCommerce."
+
+#: class-targetvr-lang.php:10
+msgid "How many seconds is the code valid"
+msgstr "Сколько секунд действителен код из СМС"
+
+#: class-targetvr-lang.php:11
+msgid "How many symbols should be in the code"
+msgstr "Сколько символов должено быть в коде"
+
+#: class-targetvr-lang.php:12
+msgid "Login for TargetSMS"
+msgstr "Логин от TargetSMS"
+
+#: class-targetvr-lang.php:13
+msgid "or"
+msgstr "или"
+
+#: class-targetvr-lang.php:14
+msgid "Password for TargetSMS"
+msgstr "Пароль от TargetSMS"
+
+#: class-targetvr-lang.php:15
+msgid "Send the registration code"
+msgstr "Отправлять ли код при регистрации"
+
+#: class-targetvr-lang.php:16
+msgid "Send the password recovery code"
+msgstr "Отправлять ли код при восстановлении пароля"
+
+#: class-targetvr-lang.php:17
+msgid "Sender's signature"
+msgstr "Подпись"
+
+#: class-targetvr-lang.php:18
+msgid "Here the data is specified from your account in the TargetSMS service."
+msgstr "Здесь указывают данные от вашего аккаунта в сервисе TargetSMS."
+
+#: class-targetvr-lang.php:19
+msgid ""
+"Here you need to specify the settings for displaying the verification field "
+"by phone number and text of message."
+msgstr ""
+"Здесь необходимо указать настройки отображения поля подтверждения по номеру "
+"телефона и текст сообщения, который будет отправляться в СМС."
+
+#: class-targetvr-lang.php:20
+msgid "[targetvr_verification_lostpass] "
+msgstr "[targetvr_verification_lostpass] "
+
+#: class-targetvr-lang.php:21
+msgid "[targetvr_verification_reg] "
+msgstr "[targetvr_verification_reg] "
+
+#: class-targetvr-lang.php:22
+msgid "Settings of Verification SMS with TargetSMS"
+msgstr "Настройки Verification SMS with TargetSMS"
+
+#: class-targetvr-lang.php:23
+msgid "Settings for TargetSMS"
+msgstr "Настройки TargetSMS"
+
+#: class-targetvr-lang.php:24
+msgid "Settings of verification and SMS"
+msgstr "Настройки верификации и СМС"
+
+#: class-targetvr-lang.php:25
+msgid "Text for SMS during registration"
+msgstr "Текст сообщение для СМС при регистрации"
+
+#: class-targetvr-lang.php:26
+msgid "Text for SMS during parameter recovery"
+msgstr "Текст сообщения для СМС при восстановлении пароля"
+
+#: class-targetvr-lang.php:27
+msgid ""
+"Enable this option if you want to use the shortcode to display the sms "
+"verification field."
+msgstr ""
+"Включите эту опцию, если вы хотите использовать shortcode для вывода поля "
+"верификации по SMS."
+
+#: class-targetvr-lang.php:28
+msgid "Use shortcode to output the verification field by sms"
+msgstr "Используйте shortcode для вывода поля верификации по sms"
+
+#: class-targetvr-lang.php:29
+msgid "You must specify the"
+msgstr "В сообщение необходимо указать тег"
+
+#: class-targetvr-lang.php:30
+msgid "tag in the text. It will be replaced with a code."
+msgstr "который будет заменен кодом подтверждения."
+
+#: class-targetvr-lang.php:37 class-targetvr-lang.php:82
+msgid "Language error phrase not found."
+msgstr "Ошибка перевода! Указанный ключ не найден."
+
+#: class-targetvr-lang.php:49
+msgid "Close"
+msgstr "Закрыть"
+
+#: class-targetvr-lang.php:50
+msgid "The code has been reset!"
+msgstr "Код сброшен!"
+
+#: class-targetvr-lang.php:51
+msgid "The code is specified incorrectly!"
+msgstr "Код введен неверно!"
+
+#: class-targetvr-lang.php:52
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: class-targetvr-lang.php:53
+msgid "The code was confirmed earlier!"
+msgstr "Код не подтвержден!"
+
+#: class-targetvr-lang.php:54
+msgid "The code is not confirmed!"
+msgstr "Код не подтвержден!"
+
+#: class-targetvr-lang.php:55
+msgid "Confirmation code"
+msgstr "Код подтверждения"
+
+#: class-targetvr-lang.php:56
+msgid "The command is incorrect!"
+msgstr "Неверная команда!"
+
+#: class-targetvr-lang.php:57
+msgid "Your authentication code {код}"
+msgstr "Ваш код аутентификации {код}"
+
+#: class-targetvr-lang.php:58
+msgid "An error has occurred!"
+msgstr "Произошло ошибка!"
+
+#: class-targetvr-lang.php:59
+msgid "Code number not specified!"
+msgstr "Код не указан!"
+
+#: class-targetvr-lang.php:60
+msgid "Phone number not specified!"
+msgstr "Номер телефона не указан!"
+
+#: class-targetvr-lang.php:61
+msgid "The message with the code to the number"
+msgstr "Сообщение с кодом отправлено на номер"
+
+#: class-targetvr-lang.php:62
+msgid ""
+"SMS with the code could not be sent! Contact the administration of site."
+msgstr "На указанный номер телефона будет отправлено SMS с кодом."
+
+#: class-targetvr-lang.php:63
+msgid "Good!"
+msgstr "Готово!"
+
+#: class-targetvr-lang.php:64
+msgid "Sending..."
+msgstr "Отправка..."
+
+#: class-targetvr-lang.php:65
+msgid "Send code"
+msgstr "Отправить код"
+
+#: class-targetvr-lang.php:66
+msgid "Send the code again"
+msgstr "Отправить СМС с кодом еще раз"
+
+#: class-targetvr-lang.php:67
+msgid "sent a confirmation code."
+msgstr "отправлено СМС с кодом подтверждения."
+
+#: class-targetvr-lang.php:68
+msgid "You can order an SMS with the code again via"
+msgstr "Заказать СМС с кодом еще раз можно через"
+
+#: class-targetvr-lang.php:69
+msgid "seconds"
+msgstr "секунд"
+
+#: class-targetvr-lang.php:70
+msgid "To the number"
+msgstr "На номер"
+
+#: class-targetvr-lang.php:71
+msgid "The user with the specified phone number was not found!"
+msgstr "Пользователь с указанным номером телефона не найден!"
+
+#: class-targetvr-lang.php:72
+msgid "The user with the specified phone number is already registered!"
+msgstr "Пользователь с указанным номером телефона уже зарегистрирован!"
+
+#: class-targetvr-lang.php:73
+msgid "An SMS with the code will be sent to the specified phone number."
+msgstr "На указанный номер телефона будет отправлено SMS с кодом."
+
+#: class-targetvr-lang.php:74
+msgid "Your phone"
+msgstr "Ваш телефон"
+
+#~ msgid "Settings of TargetSMS Verification SMS"
+#~ msgstr "Настройки TargetSMS Verification SMS"
+
+#~ msgid ""
+#~ "could not be sent! The system is not configured. Contact the site "
+#~ "administration."
+#~ msgstr ""
+#~ "Функция для отправки СМС не настроена. Обратитесь к администратору сайта."
+
+#~ msgid ""
+#~ "To display the field with the phone, specify the shortcode "
+#~ "[targetvr_field_phone] in the right place."
+#~ msgstr ""
+#~ "Чтобы отобразить поле с телефоном, укажите короткий код "
+#~ "[targetvr_field_phone] в нужном месте."

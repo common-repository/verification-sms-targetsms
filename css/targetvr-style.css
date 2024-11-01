@@ -1,0 +1,164 @@
+.targetvr-field_lostpassword {
+	float: none !important;
+}
+
+
+.targetvr-hide {
+	display: none;
+}
+.targetvr-fade {
+	display: block;
+}
+
+
+.targetvr-wrapper {
+
+}
+.targetvr-wrapper .targetvr-item-input {
+	position: relative;
+}
+.targetvr-wrapper .targetvr-item-input input {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.targetvr-wrapper .targetvr-item-input button {
+	bottom: 0;
+	cursor: pointer;
+    height: auto;
+    padding: 0 12px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+.targetvr-wrapper .targetvr-item-input button.targetvr-button_disabled {
+	cursor: not-allowed;
+}
+.targetvr-wrapper .targetvr-item-input button.loading,
+.targetvr-popup .targetvr-popup-content .targetvr-input-code button.loading {
+	background-image: url('../img/loading.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 60% auto;
+}
+.targetvr-wrapper .targetvr-item-input button.targetvr-button_disabled span.button-text {
+	margin-right: 30px;
+}
+.targetvr-wrapper .targetvr-item-input button span.confirmation-code-good {
+	display: none;
+	position: absolute;
+	right: 5px;
+	top: 20%;
+}
+.targetvr-wrapper .targetvr-item-input button span.confirmation-code-good:after {
+	background: url('../img/chek.png') no-repeat center center / 80% auto;
+	content: '';
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.targetvr-input-desc {
+	font-size: 18px;
+}
+
+.targetvr-input_error {
+	background-color: #fff9f9 !important;
+	border: 1px solid #f00 !important;
+}
+
+.targetvr-popup {
+	background-color: #fff;
+	height: auto;
+	left: 0;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 20px;
+	position: fixed;
+	right: 0;
+	top: 25%;
+	width: 100%;
+	z-index: 10000;
+}
+.targetvr-popup .targetvr-wrapper-popup-close {
+	position: relative;
+	text-align: right;
+}
+.targetvr-popup .targetvr-wrapper-popup-close .targetvr-popup-close {
+	background-color: #f4f4f4;
+	cursor: pointer;
+	font-size: 20px;
+	height: 25px;
+	line-height: 25px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	width: 25px;
+}
+.targetvr-popup .targetvr-popup-content {
+	margin: 40px 0;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-message {
+	font-size: 18px;
+    margin: 0 auto;
+    max-width: 340px;
+	text-align: center;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-message span {
+	font-weight: 700;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-sending {
+	color: #5c5c5c;
+    font-size: 16px;
+    text-align: center;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-message_error {
+	color: #cd1616;
+	font-size: 16px;
+	text-align: center;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-input-code {
+	margin: 30px auto;
+	position: relative;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-input-code input {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-input-code button {
+	bottom: 0;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-wrapper-tamer {
+	color: #5c5c5c;
+	font-size: 16px;
+	margin-top: 15px;
+	text-align: center;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-link-code {
+	margin-top: 15px;
+	text-align: center;
+}
+.targetvr-popup .targetvr-popup-content .targetvr-link-code a {
+	color: #1608c1;
+	font-size: 16px;
+}
+
+.targetvr-bg-black {
+	background-color: #000;
+	height: 100%;
+	left: 0;
+	opacity: 0.7;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
